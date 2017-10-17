@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>526592133.01558101</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>Wait for MacOS Dialog is Ready</string>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ButtonConditionSelectionType</key>
+									<string>Is</string>
+									<key>ButtonConditionType</key>
+									<string>IsEnabled</string>
+									<key>ButtonTitle</key>
+									<string>Cancel</string>
+									<key>ConditionType</key>
+									<string>Button</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>PauseUntil</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>526593727.80669099</real>
+				<key>ModificationDate</key>
+				<real>526599157.63955098</real>
+				<key>Name</key>
+				<string>Wait for Dialog is Ready</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>003DF352-A2B9-450B-A720-AE1BA6956D27</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Custom Actions</string>
+		<key>ToggleMacroUID</key>
+		<string>A6C46D9A-B9B7-4521-9247-FB54C4ACE818</string>
+		<key>UID</key>
+		<string>50C2A392-5E68-4377-AC5E-6DA433F00BA3</string>
+	</dict>
+</array>
+</plist>
